@@ -20,7 +20,7 @@ def format_output(text):
 #funcao que faz o pre-processamento dos daddos
 def preprocess_data(age_input, sex_input, bmi_input, children_input, smoker_input, region_input):
 
-    with open("/home/joao/Documentos/repos/insurance_predict/preprocessor.pkl", "rb") as d:
+    with open("preprocessor.pkl", "rb") as d:
         preprocessor  = pickle.load(d)
     
     return preprocessor.transform(pd.DataFrame({'age': [age_input], 'sex': [sex_input], 'bmi': [bmi_input], 'children': [children_input], 'smoker': [smoker_input], 'region': [region_input]}))
@@ -35,7 +35,7 @@ def make_prediction(age_input, sex_input, bmi_input, children_input, smoker_inpu
 
         preprocessed_data = preprocess_data(age_input, sex_input, bmi_input, children_input, smoker_input, region_input)
 
-        with open("/home/joao/Documentos/repos/insurance_predict/model_insurance.pkl", "rb") as f:
+        with open("model_insurance.pkl", "rb") as f:
             model  = pickle.load(f)
 
         pred = model.predict(preprocessed_data)
