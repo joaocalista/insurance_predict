@@ -1,3 +1,4 @@
+
 # Previsão de Custos Médicos
 ![Alt text](/images/logo.png)
 
@@ -47,6 +48,7 @@ Conseguimos desenvolver um modelo utilizando o algorítmo Random Forest, que tev
 - MAE: 2664,78
 - MAPE: 28,68%
 - RMSE: 4600,52
+- MPE: -18,18%
 - R2: 85,97%
 
 O MAE nos indica que os valores previstos estão variando, em média, 2664,78 para cima ou para baixo em relação ao valor real.
@@ -54,6 +56,8 @@ O MAE nos indica que os valores previstos estão variando, em média, 2664,78 pa
 O MAPE informa que as nossas predições estão, em média, 28,68% distantes dos valores reais.
 
 O RMSE tem o mesmo significado que o MAE, porém é mais impactado por erros maiores, uma vez que eleva os erros ao quadrado.
+
+O valor do MPE indica que o nosso modelo está prevendo, em média, 18% a mais que o valor real. Nosso modelo está superestimado, em média.
 
 Por fim, temos o R-quadrado (R2) de 85,97%, o que indica que 85,97% das variações da variável resposta são explicadas pelas variáveis explicativas disponíveis.
 
