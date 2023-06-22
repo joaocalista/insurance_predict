@@ -31,7 +31,7 @@ O principais objetivos são:
 
 - Elaborar um aplicativo web que irá ajudar os funcionários a melhor precificar o valor pago anualmente pelos indivíduos.
 
-### Links para o Dashboard e Notebook
+### Links para o App Web e Notebook
 Clique [**aqui**](https://huggingface.co/spaces/joaocalista/insurance-premium-prediction) para acessar o aplicativo web.
 
 Clique [**aqui**](https://github.com/joaocalista/insurance_predict/blob/main/project.ipynb) para acessar o notebook do projeto
