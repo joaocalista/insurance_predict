@@ -38,7 +38,7 @@ Clique [**aqui**](https://github.com/joaocalista/insurance_predict/blob/main/pro
 
 ## Questão de Negócio
 
-A HealthStar é uma empresa de médio porte que atua no mercado de seguros de saúde e sempre está comprometida em oferecer as melhores opções de planos possíveis. Entretanto, em uma reunião com a equipe de negócios, o CEO da empresa percebeu que a precificação dos planos era feita com base em intuição e em dados históricos limitados, o que poderia não ser suficiente para fornecer preços justos e competitivos. Para resolver tal problema, o diretor excecutivo da companhia decidiu nos contratar com a intenção de criarmos um sistema que irá realizar a automação da precificação dos planos de saúde, baseando-se em dados dos clientes,  como idade, sexo, IMC, quantidade de dependentes, local de residência e se é fumante ou não.
+A HealthStar é uma empresa de médio porte que atua no mercado de seguros de saúde em Orlando, Fl nos EUA e sempre está comprometida em oferecer as melhores opções de planos possíveis. Entretanto, em uma reunião com a equipe de negócios, o CEO da empresa percebeu que a precificação dos planos era feita com base em intuição e em dados históricos limitados, o que poderia não ser suficiente para fornecer preços justos e competitivos. Para resolver tal problema, o diretor excecutivo da companhia decidiu nos contratar com a intenção de criarmos um sistema que irá realizar a automação da precificação dos planos de saúde, baseando-se em dados dos clientes,  como idade, sexo, IMC, quantidade de dependentes, local de residência e se é fumante ou não.
 
 Desse modo, teremos a tarefa de criar um modelo de predição de custo anual de plano de saúde preciso e disponibilizá-lo de forma que todo o time de negócio possa ter acesso a ele.
 
